@@ -105,6 +105,8 @@ final class WishListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = .secondarySystemBackground
+
         applyWishKitConfig()
 
         setup()
@@ -240,8 +242,6 @@ extension WishListVC {
         case .hide:
             switchContainer.isHidden = true
         }
-
-        view.backgroundColor = WishKit.config.backgroundColor
     }
 }
 

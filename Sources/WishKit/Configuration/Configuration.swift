@@ -27,8 +27,6 @@ public struct Configuration {
 
     public var emailField: EmailField = .optional
 
-    public var backgroundColor: UIColor = .secondarySystemBackground
-
     init(
         statusBadgeDisplay: Display = .hide,
         localization: Localizaton = .default()
